@@ -14,7 +14,6 @@ function App() {
         <a
           href="https://www.tom-seager.com"
           className="siteLinkStyle"
-          target="_blank"
         >
           Return to the Tom Seager Main Site
         </a>
