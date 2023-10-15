@@ -14,9 +14,33 @@
   margin: 40px 0px;
 }
 
+.social-links {
+  display: flex;
+  justify-content: center;
+}
+
+.social-items {
+  margin: 0 30px;
+  text-align: center;
+}
+
+.x-icon,
+.github-icon {
+  color: white;
+  font-size: 50px;
+}
+
 @media (max-width: 600px) {
   .web-address {
     font-size: 30px;
+  }
+  .social-links {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .social-items {
+    margin: 10px 0;
   }
 }
 
@@ -31,7 +55,7 @@
     display: block;
   }
 
-    .siteLinkStyle {
+  .siteLinkStyle {
     font-size: 14px;
   }
 }
