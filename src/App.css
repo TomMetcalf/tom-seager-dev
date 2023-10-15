@@ -20,7 +20,7 @@
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 420px) {
   .web-address {
     font-size: 20px;
   }
@@ -29,5 +29,9 @@
   .second-line {
     font-size: 18px;
     display: block;
+  }
+
+    .siteLinkStyle {
+    font-size: 14px;
   }
 }
