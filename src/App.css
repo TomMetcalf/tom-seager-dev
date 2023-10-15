@@ -1,0 +1,33 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.first-line,
+.second-line {
+  display: inline;
+}
+
+.siteLinks {
+  margin: 40px 0px;
+}
+
+@media (max-width: 600px) {
+  .web-address {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 400px) {
+  .web-address {
+    font-size: 20px;
+  }
+
+  .first-line,
+  .second-line {
+    font-size: 18px;
+    display: block;
+  }
+}
