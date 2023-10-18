@@ -1,17 +1,16 @@
 import './App.css';
-import SiteLinks from './components/SiteLinks';
-import SocialLinks from './components/SocialLinks';
-import UndersConstructionText from './components/UnderConstructionText';
-import WebHeader from './components/WebHeader';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Home from './pages/Home';
+import Blog from './pages/Blog';
 
 function App() {
   return (
-    <>
-      <WebHeader />
-      <UndersConstructionText />
-      <SiteLinks />
-      <SocialLinks />
-    </>
+    <Router>
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route path="/blog" element={<Blog />} />
+      </Routes>
+    </Router>
   );
 }
 
