@@ -1,9 +1,10 @@
 import './App.css';
+import WebHeader from './components/WebHeader';
 
 function App() {
   return (
     <>
-      <h1 className="web-address">dev.tom-seager.com</h1>
+      <WebHeader />
       <h2>
         <span className="first-line">The Home of </span>
         <span className="second-line">Tom Seager Dev</span>
