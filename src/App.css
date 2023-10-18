@@ -5,6 +5,17 @@
   text-align: center;
 }
 
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  padding: 0;
+}
+
+.nav-link {
+  margin-right: 20px;
+}
+
 .first-line,
 .second-line {
   display: inline;

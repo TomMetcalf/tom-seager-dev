@@ -1,3 +1,10 @@
+import Navigation from '../components/Navigation';
+
 export default function Blog() {
-  return <h1>Blog</h1>;
+  return (
+    <>
+      <Navigation />
+      <h1>Blog</h1>
+    </>
+  );
 }
